@@ -5,7 +5,3 @@ output "instance_ami" {
 output "instance_arn" {
   value = aws_instance.ubuntu.arn
 }
-output "instance_name" {
-  value = aws_instance.ubuntu.name
-}
-
